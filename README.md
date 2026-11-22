@@ -48,7 +48,7 @@ install -m 755 target/release/kitten-say ~/.local/bin/kitten-say
 | grapheme→phoneme model  | `g2p/g2p_bart_en_us/model.safetensors` (0.75M-param char-level BART, re-implemented in Rust) | 2.8 MB |
 
 ONNX Runtime is linked **statically**, so `ldd` shows only libc/libm/libstdc++/libgcc. The binary
-is ~34 MB, peak RSS ~270 MB.
+is ~34 MB, peak RSS ~410 MB for a one-sentence render (~510 MB for a paragraph).
 
 Non-English languages (`-l de`, `-l fr`, …) are the one place where the single-file promise breaks:
 the HF repo ships those dictionaries inside `phonemizer`/`espeak-ng`, so the tool shells out to the
@@ -60,8 +60,10 @@ model. English needs nothing. 25 language codes are mapped; see `src/espeak.rs`.
 | metric                              | value                              |
 |-------------------------------------|------------------------------------|
 | startup (decompress + parse lexicon + load model) | ~0.2 s |
-| synthesis                            | ~3× realtime                      |
-| single-threaded synthesis            | ~1.2× realtime                    |
+| synthesis, 204-char paragraph (21.3 s of audio) | 7.1 s wall → **~3.0× realtime** |
+| synthesis, one short sentence (4.0 s of audio) | 2.8 s wall → **~1.5× realtime** (startup dominates) |
+| single-threaded synthesis (`--threads 1`)    | ~1.0× realtime (~1.2× on long text) |
+| peak RSS                             | ~410 MB (sentence) / ~510 MB (paragraph) |
 | output                               | 24 kHz mono, 16-bit PCM           |
 
 The decoder samples noise, so the same sentence renders slightly differently on each run — the
