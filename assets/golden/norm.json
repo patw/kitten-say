@@ -1,0 +1,90 @@
+[
+ {
+  "in": "Hello world!",
+  "out": "Hello world!"
+ },
+ {
+  "in": "This high quality TTS model works without a GPU.",
+  "out": "This high quality TTS model works without a GPU."
+ },
+ {
+  "in": "Kevin and Paul met Diego in Klein, Texas at 3:45pm on 2026-10-13.",
+  "out": "Kevin and Paul met Diego in Klein, Texas at three forty-five PM on October thirteenth, twenty twenty-six."
+ },
+ {
+  "in": "The quick brown fox jumps over the lazy dog; it cost $5.99, Dr. Smith said.",
+  "out": "The quick brown fox jumps over the lazy dog; it cost five dollars and ninety-nine cents, Doctor Smith said."
+ },
+ {
+  "in": "Kitten TTS runs on a CPU, with no PyTorch and no GPU at all.",
+  "out": "Kitten TTS runs on a CPU, with no PyTorch and no GPU at all."
+ },
+ {
+  "in": "It cost $5.99 at the store.",
+  "out": "It cost five dollars and ninety-nine cents at the store."
+ },
+ {
+  "in": "Dr. Smith lives on St. Paul St.",
+  "out": "Doctor Smith lives on Saint Paul Street."
+ },
+ {
+  "in": "The meeting is at 3:45pm on 2026-10-13.",
+  "out": "The meeting is at three forty-five PM on October thirteenth, twenty twenty-six."
+ },
+ {
+  "in": "NASA's budget rose 12% to $24.5B.",
+  "out": "NASA's budget rose twelve percent to twenty-four point five billion dollars."
+ },
+ {
+  "in": "Chapter IV, section 3b.",
+  "out": "Chapter four, section 3b."
+ },
+ {
+  "in": "Call 555-0123 ext. 42.",
+  "out": "Call five five five, zero one two, three extension forty-two."
+ },
+ {
+  "in": "He ran 5km in 22min.",
+  "out": "He ran five kilometres in twenty-two minutes."
+ },
+ {
+  "in": "The temperature is -3°C today.",
+  "out": "The temperature is minus three degrees Celsius today."
+ },
+ {
+  "in": "e.g. apples, i.e. fruit, etc.",
+  "out": "for example, apples, that is, fruit, etcetera"
+ },
+ {
+  "in": "She owns 1,234 books & 7 cats.",
+  "out": "She owns one thousand, two hundred and thirty-four books and seven cats."
+ },
+ {
+  "in": "Flight AA1234 departs from JFK at 07:05.",
+  "out": "Flight AA1234 departs from JFK at seven oh five."
+ },
+ {
+  "in": "Version 2.0.1 fixes 3/4 of the bugs.",
+  "out": "Version two point zero point one fixes three quarters of the bugs."
+ },
+ {
+  "in": "Revenue grew 150% to $1.2B in Q3 2025.",
+  "out": "Revenue grew one hundred and fifty percent to one point two billion dollars in Q3 twenty twenty-five."
+ },
+ {
+  "in": "Mix 250ml water with 1.5kg flour at 180°C.",
+  "out": "Mix two hundred and fifty millilitres water with one point five kilograms flour at one hundred and eighty degrees Celsius."
+ },
+ {
+  "in": "Visit https://example.com or email a@b.com.",
+  "out": "Visit link or email email address."
+ },
+ {
+  "in": "The 3rd of May, 1999 — see pages 10-15.",
+  "out": "The third of May, nineteen ninety-nine - see pages ten to fifteen."
+ },
+ {
+  "in": "Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence ",
+  "out": "Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence Long sentence"
+ }
+]

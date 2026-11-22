@@ -1,0 +1,206 @@
+{
+ "kevin": {
+  "phonemes": "kˈɛvən",
+  "source": "CMUdict"
+ },
+ "paul": {
+  "phonemes": "pˈɔl",
+  "source": "CMUdict"
+ },
+ "diego": {
+  "phonemes": "diˈAɡO",
+  "source": "CMUdict"
+ },
+ "klein": {
+  "phonemes": "klˈIn",
+  "source": "CMUdict"
+ },
+ "kittenml": {
+  "phonemes": "kˈɪtnmˌɛl",
+  "source": "BART"
+ },
+ "wendorf": {
+  "phonemes": "wˈɛndɔɹf",
+  "source": "CMUdict"
+ },
+ "behopc": {
+  "phonemes": "bᵻhˈɑpʧ",
+  "source": "BART"
+ },
+ "catbee": {
+  "phonemes": "kˈætbi",
+  "source": "BART"
+ },
+ "pengy": {
+  "phonemes": "pˈɛnʤi",
+  "source": "BART"
+ },
+ "xylophone": {
+  "phonemes": "zˈIləfˌOn",
+  "source": "CMUdict"
+ },
+ "quixotic": {
+  "phonemes": "kwɪksˈɑTɪk",
+  "source": "CMUdict"
+ },
+ "phosphorescent": {
+  "phonemes": "fˌɑsfəɹˈɛsᵊnt",
+  "source": "BART"
+ },
+ "antidisestablishmentarianism": {
+  "phonemes": "ˌæntIdˌɪsəstˌæblɪʃməntˈɛɹiənˌɪzəm",
+  "source": "CMUdict"
+ },
+ "supercalifragilisticexpialidocious": {
+  "phonemes": "sˌupəɹkˌæləfɹˌæʤəlˈɪstɪkstɹspiˌælədˈOʃəs",
+  "source": "BART"
+ },
+ "squirrels": {
+  "phonemes": "skwˈɜɹəlz",
+  "source": "CMUdict"
+ },
+ "bureaucratic": {
+  "phonemes": "bjˌʊɹəkɹˈæTɪk",
+  "source": "CMUdict"
+ },
+ "Gnu": {
+  "phonemes": "nˈu",
+  "source": "CMUdict"
+ },
+ "Klingon": {
+  "phonemes": "klˈɪŋɡən",
+  "source": "CMUdict"
+ },
+ "jpeg": {
+  "phonemes": "ʤˈApˌɛɡ",
+  "source": "BART"
+ },
+ "png": {
+  "phonemes": "pˈɪŋ",
+  "source": "BART"
+ },
+ "tokenizer": {
+  "phonemes": "tˈOkənˌIzəɹ",
+  "source": "BART"
+ },
+ "multimodal": {
+  "phonemes": "mˌʌltimˈOdᵊl",
+  "source": "BART"
+ },
+ "srewen": {
+  "phonemes": "sɹˈuwən",
+  "source": "BART"
+ },
+ "aeon": {
+  "phonemes": "ˈiən",
+  "source": "BART"
+ },
+ "oeuvre": {
+  "phonemes": "ˈuvəɹə",
+  "source": "CMUdict"
+ },
+ "tsk": {
+  "phonemes": "tskˈA",
+  "source": "BART"
+ },
+ "mm-hmm": {
+  "phonemes": "m hmm",
+  "source": "BART"
+ },
+ "gooseberry": {
+  "phonemes": "ɡˈusbˌɛɹi",
+  "source": "CMUdict"
+ },
+ "worcestershire": {
+  "phonemes": "wˈʊstəɹʃəɹ",
+  "source": "CMUdict"
+ },
+ "liverpool": {
+  "phonemes": "lˈɪvəɹpˌul",
+  "source": "CMUdict"
+ },
+ "syzygy": {
+  "phonemes": "sˈɪzəʤi",
+  "source": "BART"
+ },
+ "psithurism": {
+  "phonemes": "sˈɪθjəɹˌɪzəm",
+  "source": "BART"
+ },
+ "A": {
+  "phonemes": "ə",
+  "source": "CMUdict"
+ },
+ "abcdefghijklmno": {
+  "phonemes": "ˌæbˌɛfdikˈɪlmnO",
+  "source": "BART"
+ },
+ "qqqq": {
+  "phonemes": "kwˈAkə",
+  "source": "BART"
+ },
+ "'quoted'": {
+  "phonemes": "kwˈOTᵻd",
+  "source": "CMUdict"
+ },
+ "d'angelo": {
+  "phonemes": "diˈænʤəlO",
+  "source": "CMUdict"
+ },
+ "o'brien": {
+  "phonemes": "əbɹˈIɪn",
+  "source": "CMUdict"
+ },
+ "it's": {
+  "phonemes": "ˈɪts",
+  "source": "CMUdict"
+ },
+ "dr.": {
+  "phonemes": "dˈɑktəɹ",
+  "source": "BART"
+ },
+ "smith-jones": {
+  "phonemes": "smˈɪθ ʤˈOnz",
+  "source": "CMUdict"
+ },
+ "x": {
+  "phonemes": "ˈɛks",
+  "source": "BART"
+ },
+ "z": {
+  "phonemes": "z",
+  "source": "BART"
+ },
+ "zwolle": {
+  "phonemes": "zwˈOl",
+  "source": "BART"
+ },
+ "ijssel": {
+  "phonemes": "ˈIsˌɛl",
+  "source": "BART"
+ },
+ "QWERTYUIOP": {
+  "phonemes": "kwˌɜɹTijˈup",
+  "source": "BART"
+ },
+ "Wendorf": {
+  "phonemes": "wˈɛndɔɹf",
+  "source": "CMUdict"
+ },
+ "PengyOS": {
+  "phonemes": "pˈɛnʤiˌɑs",
+  "source": "BART"
+ },
+ "KittenML": {
+  "phonemes": "kˈɪtnmˌɛl",
+  "source": "BART"
+ },
+ "onnxruntime": {
+  "phonemes": "ˌɑnŋksɹˈʌntˌIm",
+  "source": "BART"
+ },
+ "espeakng": {
+  "phonemes": "ɛspˈikɪŋ",
+  "source": "BART"
+ }
+}

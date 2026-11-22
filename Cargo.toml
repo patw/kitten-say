@@ -1,0 +1,25 @@
+[package]
+name = "kitten-say"
+version = "0.1.0"
+edition = "2021"
+description = "KittenTTS 2 text-to-speech in a single self-contained Rust binary: CPU only, no Python, no torch"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/patw/kitten-say"
+keywords = ["tts", "text-to-speech", "onnx", "phonemizer"]
+categories = ["multimedia::audio"]
+
+[dependencies]
+ort = { version = "2.0.0-rc.13", default-features = false, features = ["std", "download-binaries", "tls-rustls", "api-17"] }
+flate2 = "1"
+serde_json = "1"
+regex = "1"
+anyhow = "1"
+libm = "0.2"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
+codegen-units = 1
+panic = "abort"

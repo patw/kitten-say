@@ -1,0 +1,15 @@
+# build output
+/target/
+
+# the model itself is downloaded, never committed
+*.onnx
+*.safetensors
+
+# intermediate: only the gzipped form is embedded
+/assets/voices_en.npz
+
+# stray harness output
+*.wav.bak
+/out/
+__pycache__/
+.venv/

@@ -1,0 +1,39 @@
+kitten-say
+==========
+
+The Rust source in src/ is licensed MIT (see LICENSE).
+
+The files in assets/ are not original to this project. Each is a repackaging
+(gzip, or a TSV flattening) of material from the sources below, redistributed
+here under the same licence as its source:
+
+KittenTTS 2 mini -- Apache License 2.0
+  https://huggingface.co/KittenML/kitten-tts-2-mini
+  assets/vocab.tsv.gz                <- vocab.json          (phoneme vocabulary)
+  assets/voices_en.npz(.gz)          <- voices_en.npz       (11 English voice style packs)
+  assets/bart.safetensors.gz         <- g2p/g2p_bart_en_us/model.safetensors
+  assets/lexicon.tsv.gz (CMU part)   <- g2p/cmu_misaki_us.json
+  No modifications beyond re-serialisation: the vocabulary is a sorted
+  symbol<TAB>id table, the lexicons are flattened to one word per line with a
+  priority column, and the two binary blobs are gzipped verbatim.
+
+misaki -- MIT License
+  https://github.com/hexgrad/misaki   (hexgrad)
+  assets/lexicon.tsv.gz (gold/silver parts)  <- data/us_gold.json, data/us_silver.json
+  assets/letters.tsv.gz                      <- single-letter entries of us_gold.json
+  The lexicons are gzipped TSV renderings of the dictionaries, with the
+  capitalized/lowercase twin entries misaki's grow_dictionary() adds, POS
+  sub-dictionaries flattened to their DEFAULT entry, and gzip applied.
+
+CMU Pronouncing Dictionary -- BSD-2-Clause
+  http://www.speech.cs.cmu.edu/cgi-bin/cmudict
+  Reached here via the model's converted g2p/cmu_misaki_us.json (CMU entries
+  mapped onto the model's phoneme alphabet) and subsumed into
+  assets/lexicon.tsv.gz.
+
+Reference fixtures in assets/golden/ were produced by running the official
+KittenTTS 2 Python pipeline on the sentences listed in prep_assets.py's sibling
+harness; they carry the KittenTTS 2 licence above.
+
+espeak-ng (GPLv3) is not included, linked, or redistributed. Non-English
+languages invoke a separately installed espeak-ng binary as a child process.
