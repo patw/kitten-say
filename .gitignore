@@ -11,5 +11,8 @@
 # stray harness output
 *.wav.bak
 /out/
+
+# fleet binary drop (Syncthing shares it; not a source artifact)
+/dist/
 __pycache__/
 .venv/
